@@ -4,6 +4,8 @@ ul {
   padding: 0;
   background-color: #333333;
   display: flex;
+  position: sticky;
+  top: 0;
 }
 
 ul li a {
@@ -24,3 +26,4 @@ ul li a:hover:not(.active) {
 ul li a.active {
   background-color: #111111;
 }
+
